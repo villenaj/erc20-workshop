@@ -21,12 +21,6 @@ mod erc20 {
     //          * value: Balance
     }
 
-    // ACTION: Add an `Approval` event
-	//         It should emit the following:
-	//         * `owner` as an `AccountId`
-	//         * `spender` as an `AccountId`
-	//         * `value` as a `Balance`
-
     impl Erc20 {
         #[ink(constructor)]
         pub fn new(initial_supply: Balance) -> Self {
