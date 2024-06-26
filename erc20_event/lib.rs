@@ -15,10 +15,10 @@ mod erc20 {
 
     #[ink(event)]
     pub struct Transfer {
-    //  ACTION: Create a `Transfer` event with:
-    //          * from: Option<AccountId>
-    //          * to: Option<AccountId>
-    //          * value: Balance
+        //  ACTION: Create a `Transfer` event with:
+        //          * from: as an optional AccountId
+        //          * to: as an optional AccountId
+        //          * value: as Balance
     }
 
     impl Erc20 {
