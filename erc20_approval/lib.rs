@@ -18,12 +18,11 @@ mod erc20 {
 
     #[ink(event)]
     pub struct Transfer {
-    // ACTION: After creating an ERC20 EVENT,
-    //          * copy and paste your source code
-    //          * from the ERC20 EVENT `lib.rs` and
-    //          * you can now define your new event
-    //          * and create an approval function!
-
+	    // ACTION: After creating an ERC20 EVENT,
+	    //          * copy and paste your source code
+	    //          * from the ERC20 EVENT `lib.rs` and
+	    //          * you can now define your new event
+	    //          * and create an approval function!
     }
 
     // ACTION: Add an `Approval` event
