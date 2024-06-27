@@ -6,6 +6,11 @@
 3. Then paste also the source code you have added on ERC20-EVENTS to `./erc20_approval` folder
 
 ## Test your work
+Make the script executable
 ```bash
-cargo test
+chmod +x run_tests.sh
+```
+Then run it
+```bash
+./run_tests.sh
 ```

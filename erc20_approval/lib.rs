@@ -11,7 +11,7 @@ mod erc20 {
         total_supply: Balance,
         /// The balance of each user.
         balances: Mapping<AccountId, Balance>,
-        /// Approval spender on behalf of the message's sender.
+        // Approval spender on behalf of the message's sender.
 		//  ACTION: Add an `allowances` storage item. It should be a
 		//         `HashMap` from `(AccountId, AccountId)` to `Balance`
     }
@@ -102,6 +102,7 @@ mod erc20 {
 			//   HINT: The key tuple is `(owner, spender)`
 			// ACTION: `emit` the `Approval` event you created using these values
 			// ACTION: Return true if everything was successful
+            todo!()
 		}
 
         #[ink(message)]
@@ -109,6 +110,7 @@ mod erc20 {
 			// ACTION: Create a getter for the `allowances` HashMap
 			//   HINT: Take a look at the getters above if you forget the details
 			// ACTION: Return the `allowance` value
+            todo!()
 		}
 
         #[ink(message)]
@@ -118,10 +120,12 @@ mod erc20 {
 			// ACTION: `insert` the new allowance into the map for `(from, self.env().caller())`
 			// ACTION: Finally, call the `transfer_from_to` for `from` and `to`
 			// ACTION: Return true if everything was successful
+            todo!()
 		}
 
         fn allowance_of_or_zero(&self, owner: &AccountId, spender: &AccountId) -> Balance {
 			// ACTION: `get` the `allowances` of `(owner, spender)` and `unwrap_or` return `0`.
+            todo!()
 		}
     }
 
