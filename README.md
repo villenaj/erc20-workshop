@@ -6,4 +6,4 @@
 3. Then paste also the source code you have added on ERC20-EVENTS to `./erc20_approval` folder
 
 ## Test your work
-`cargo test`
+```cargo test```
